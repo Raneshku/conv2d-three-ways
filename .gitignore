@@ -1,0 +1,30 @@
+# C build
+*.o
+*.out
+reference/conv2d
+
+# CUDA build
+*.cu.o
+cuda/benchmark
+cuda/conv2d_naive
+cuda/conv2d_tiled
+
+# Verilator
+obj_dir/
+*.vcd
+
+# Python / cocotb
+__pycache__/
+*.pyc
+sim_build/
+results.xml
+.pytest_cache/
+.venv/
+
+# Editor / OS
+.vscode/
+*.swp
+.DS_Store
+
+# Private docs (session notes, status tracking)
+docs/
