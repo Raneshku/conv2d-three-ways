@@ -28,3 +28,6 @@ results.xml
 
 # Private docs (session notes, status tracking)
 docs/
+
+# README managed via GitHub web UI only
+README.md
